@@ -22,19 +22,20 @@ body {
 .navbar-brand {
   padding-top: 25px;
 }
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { /* Restaurant name */               /*UPDATED*/
   font-family: 'Lora', serif;
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+  text-shadow: 1px 1px 1px #222;                     /*UPDATED*/
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
+  line-height: .75;       /*UPDATED*/
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+.navbar-brand a:hover, .navbar-brand :focus {        /*UPDATED*/
+                                                        
+  text-decoration: none;                            /*UPDATED*/
 }
 .navbar-brand p { /* Kosher cert */
   color: #000;
